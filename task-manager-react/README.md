@@ -144,6 +144,57 @@ task-manager-react/
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 
+## 🚀 Deployment Instructions
+
+### Option 1: Deploy to Netlify (Recommended)
+
+1. **Build the project locally:**
+   ```bash
+   npm run build
+   ```
+
+2. **Deploy using Netlify Drop:**
+   - Go to [https://app.netlify.com/drop](https://app.netlify.com/drop)
+   - Drag and drop the `dist` folder from your project
+   - Your app will be live instantly!
+
+3. **Or use Netlify CLI:**
+   ```bash
+   npm install -g netlify-cli
+   netlify deploy --dir=dist
+   netlify deploy --prod --dir=dist
+   ```
+
+### Option 2: Deploy to Vercel
+
+1. **Install Vercel CLI:**
+   ```bash
+   npm install -g vercel
+   ```
+
+2. **Deploy:**
+   ```bash
+   vercel
+   ```
+
+### Option 3: Deploy to GitHub Pages
+
+1. **Install gh-pages:**
+   ```bash
+   npm install --save-dev gh-pages
+   ```
+
+2. **Add to package.json scripts:**
+   ```json
+   "predeploy": "npm run build",
+   "deploy": "gh-pages -d dist"
+   ```
+
+3. **Deploy:**
+   ```bash
+   npm run deploy
+   ```
+
 ## 🔄 State Management Pattern
 
 ```javascript
