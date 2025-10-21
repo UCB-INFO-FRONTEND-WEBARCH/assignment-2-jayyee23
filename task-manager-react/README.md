@@ -2,6 +2,12 @@
 
 A fully interactive task management application built with React, featuring state management, filtering, and a responsive design.
 
+## 🔗 Live Demo
+
+**[View Live Application →](https://ucb-info-frontend-webarch.github.io/assignment-2-jayyee23/)**
+
+The application is deployed and accessible at: https://ucb-info-frontend-webarch.github.io/assignment-2-jayyee23/
+
 ## 🚀 Features
 
 ### Core Features
@@ -144,56 +150,41 @@ task-manager-react/
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 
-## 🚀 Deployment Instructions
+## 🚀 Deployment
 
-### Option 1: Deploy to Netlify (Recommended)
+### ✅ Already Deployed!
 
-1. **Build the project locally:**
-   ```bash
-   npm run build
-   ```
+This application is **already deployed and live** on GitHub Pages:
 
-2. **Deploy using Netlify Drop:**
-   - Go to [https://app.netlify.com/drop](https://app.netlify.com/drop)
-   - Drag and drop the `dist` folder from your project
-   - Your app will be live instantly!
+🔗 **Live URL**: https://ucb-info-frontend-webarch.github.io/assignment-2-jayyee23/
 
-3. **Or use Netlify CLI:**
-   ```bash
-   npm install -g netlify-cli
-   netlify deploy --dir=dist
-   netlify deploy --prod --dir=dist
-   ```
+### How It Was Deployed (GitHub Pages)
 
-### Option 2: Deploy to Vercel
+The app was deployed using GitHub Pages with the following steps:
 
-1. **Install Vercel CLI:**
-   ```bash
-   npm install -g vercel
-   ```
-
-2. **Deploy:**
-   ```bash
-   vercel
-   ```
-
-### Option 3: Deploy to GitHub Pages
-
-1. **Install gh-pages:**
+1. **Installed gh-pages package:**
    ```bash
    npm install --save-dev gh-pages
    ```
 
-2. **Add to package.json scripts:**
+2. **Added deployment scripts to package.json:**
    ```json
    "predeploy": "npm run build",
    "deploy": "gh-pages -d dist"
    ```
 
-3. **Deploy:**
+3. **Deployed to GitHub Pages:**
    ```bash
    npm run deploy
    ```
+
+4. **Configured in GitHub Settings:**
+   - Navigate to repository Settings → Pages
+   - Source: Deploy from a branch
+   - Branch: gh-pages
+   - Folder: / (root)
+
+The application automatically deploys when changes are pushed using the `npm run deploy` command.
 
 ## 🔄 State Management Pattern
 

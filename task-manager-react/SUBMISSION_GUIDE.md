@@ -21,15 +21,12 @@ Included in README.md:
 >
 > Compared to Assignment 1's vanilla JavaScript approach, React eliminates manual DOM manipulation, provides better separation of concerns, and makes it easier to manage application state. The development experience is enhanced with hot module replacement, and the component lifecycle is more intuitive than manually managing event listeners and DOM updates.
 
-### 4. **Live Demo Deployment**
-To deploy your app:
+### 4. **Live Demo Deployment** ✅
+**Already Deployed!**
 
-#### Quick Deployment with Netlify Drop:
-1. Open terminal in the `task-manager-react` folder
-2. Run `npm run build` to create production build
-3. Go to https://app.netlify.com/drop
-4. Drag the `dist` folder to the browser
-5. Your app is live! Copy the URL for submission
+🔗 **Live URL**: https://ucb-info-frontend-webarch.github.io/assignment-2-jayyee23/
+
+The application is already deployed and accessible on GitHub Pages!
 
 ## 📋 Submission Steps
 
@@ -38,15 +35,13 @@ To deploy your app:
    - Select "Send to" > "Compressed (zipped) folder"
    - Name it: `task-manager-react-[YourName].zip`
 
-2. **Deploy to Netlify:**
-   - Build: `npm run build`
-   - Visit: https://app.netlify.com/drop
-   - Drag `dist` folder to browser
-   - Save the generated URL
+2. **Live Demo URL (Already Deployed):**
+   - ✅ GitHub Pages URL: https://ucb-info-frontend-webarch.github.io/assignment-2-jayyee23/
+   - The app is already live and accessible!
 
 3. **Submit via course website:**
    - Upload the ZIP file
-   - Include the live demo URL in submission comments
+   - Include the live demo URL in submission comments: `https://ucb-info-frontend-webarch.github.io/assignment-2-jayyee23/`
    - Confirm all rubric requirements are met
 
 ## 📊 Grading Rubric Coverage (100/100 points)
